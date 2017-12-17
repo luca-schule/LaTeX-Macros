@@ -1,7 +1,5 @@
 \select@language {ngerman}
-\contentsline {chapter}{\numberline {1}Einleitung}{3}{chapter.1}
-\contentsline {section}{\numberline {1.1}Bla}{3}{section.1.1}
-\contentsline {subsection}{\numberline {1.1.1}bli}{3}{subsection.1.1.1}
-\contentsline {chapter}{\numberline {2}fenje}{4}{chapter.2}
-\contentsline {section}{\numberline {2.1}e}{4}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}f}{4}{subsection.2.1.1}
+\contentsline {section}{\numberline {1}Einleitung}{3}{section.1}
+\contentsline {subsection}{\numberline {1.1}Was sind Makros?}{3}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Wof\IeC {\"u}r werden Makros in \LaTeX genutzt?}{3}{subsection.1.2}
+\contentsline {section}{Literatur}{3}{subsection.1.2}

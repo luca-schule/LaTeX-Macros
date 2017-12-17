@@ -1,4 +1,4 @@
-\documentclass[ngerman]{scrreprt}
+\documentclass[ngerman,12pt,titlepage]{scrartcl}
 
 \usepackage[ngerman]{babel}
 
@@ -14,7 +14,7 @@
 \usepackage{graphicx}
 \usepackage{listings}
 
-\title{Macros und deren Nutzen im alltäglichen gebrauch von \LaTeX}
+\title{Makros und deren Nutzen im alltäglichen Gebrauch von \LaTeX}
 \author{Luca Kiebel}
 \date{\today}
 
@@ -25,22 +25,18 @@
 	\tableofcontents
 \newpage
 
-\chapter{Einleitung}
+\section{Einleitung}
 \label{cha:Einleitung}
-\section{Bla}
-\subsection{bli}
+\subsection{Was sind Makros?}
 
-\cite{test}
+
+\subsection{Wofür werden Makros in \LaTeX genutzt?}
+
 Macros sind voll toll und cool!
 
-\chapter{fenje}
-\section{e}
-\subsection{f}
 
 
-
-
-
+\addcontentsline{toc}{section}{Literatur}
 \bibliography{mybib}{}
 \bibliographystyle{plain}
 \end{document}
