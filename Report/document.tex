@@ -9,7 +9,8 @@
 \usepackage{cleveref}
 \usepackage{makeidx}
 \usepackage{listings}
-\usepackage{cite}
+\usepackage[style=authoryear,backend=biber, natbib=true, hyperref=true]{biblatex}
+\addbibresource{mybib.bib}
 \makeindex
 \usepackage{graphicx}
 \usepackage{listings}
@@ -28,15 +29,22 @@
 \section{Einleitung}
 \label{cha:Einleitung}
 \subsection{Was sind Makros?}
+\textbf{\textit{Ein Makro ist in der Softwareentwicklung eine unter einer bestimmten Bezeichnung (Makroname) zusammengefasste Folge von Anweisungen oder Deklarationen, um diese mit nur einem einfachen Aufruf ausführen zu können.}} ~\citep{wiki:makro}\\ \\
+Durch Makros lassen sich also lange Befehlsketten in kürzere umwandeln. Die ersten Makros 	\\ \\
+Es gibt verschiedene Arten von Makros: \\
+\vspace{5mm} \\
+\begin{tabular}{l|p{0.65\textwidth}}
+	\textbf{Art} & \textbf{ Beschreibung} \\ \hline
+	Tastatur und Maus Makros & Kurze Abfolgen von Tastenanschlägen werden in längere transformiert. Häufig verwendete oder sich wiederholende Sequenzen von Tastenanschlägen und Mausbewegungen können automatisiert werden. \\
+	Programm-Makros und Skripting & Durch Programm-Makros können (z.B. durch Tastenkombinationen) lange Befehlsketten durch eine Operation gesteuert werden. \\
+\end{tabular}
 
 
-\subsection{Wofür werden Makros in \LaTeX genutzt?}
-
-Macros sind voll toll und cool!
-
+\subsection{Wofür werden Makros in \LaTeX  genutzt?}
+In \LaTeX  können Makros genutzt werden{,} um zu verhindern{,} dass Code mehrfach geschrieben wird. Soll ein integrierter Befehl zum Beispiel immer mit den selben Parametern ausgeführt werden{,} lohnt es sich{,} dafür ein Makro anzulegen. Auch{,} kann man neue Befehle anlegen, diese kurz machen{,} um Zeichen im Dokument zu sparen.
 
 
-\addcontentsline{toc}{section}{Literatur}
-\bibliography{mybib}{}
-\bibliographystyle{plain}
+\newpage
+\printbibliography
+
 \end{document}

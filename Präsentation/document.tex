@@ -1,22 +1,37 @@
-\documentclass[11pt]{beamer}
-\usepackage[latin5]{inputenc}
+\documentclass[10pt,a4paper]{beamer}
+				
 \usepackage[ngerman]{babel}
-\usetheme{Berkeley}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{varioref}
+\usepackage{hyperref}
+\usepackage{cleveref}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{makeidx}
+\usepackage{graphicx}
+\usepackage{csquotes}
+
+\setbeamercolor{logo}{bg=white}  %controls the color of the logo area
+\setbeamertemplate{navigation symbols}{}
+
+\usetheme{PaloAlto}
+\renewcommand{\footnotesize}{\small}
+\newcommand{\pftn}[1]{\let\thefootnote\relax\footnotetext{\tiny #1}}
+\newcommand{\ftn}[2]{\footnote[#1]{\tiny #2}}
+
+\logo{\includegraphics[width=0.155\linewidth]{hbbk-logo}}
+\author{Luca Kiebel}
+\title{\LaTeX   Makros}
+%\subtitle{subtitle}
+\date{\today}
+\setlength{\itemsep}{10pt}
 \begin{document}
-	\author{Luca Kiebel}
-	\title{Makros in \LaTeX}
-	%\subtitle{}
-	%\logo{}
-	%\institute{}
-	%\date{}
-	%\subject{}
-	%\setbeamercovered{transparent}
-	%\setbeamertemplate{navigation symbols}{}
-	\begin{frame}[plain]
-	\maketitle
+\begin{frame}
+\titlepage
 \end{frame}
 
-\begin{frame}
-\frametitle{}
-\end{frame}
+
+
 \end{document}
