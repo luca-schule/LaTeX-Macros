@@ -6,11 +6,11 @@
 \usepackage[utf8]{inputenc}
 \usepackage{varioref}
 \usepackage{hyperref}
-\usepackage{cleveref}
+\usepackage[ngerman]{cleveref}
 \usepackage{makeidx}
 \usepackage{csquotes}
 \usepackage{listings}
-\usepackage[style=authoryear,backend=biber, natbib=true, hyperref=true]{biblatex}
+\usepackage[style=authortitle,backend=biber, natbib=true, hyperref=true]{biblatex}
 \addbibresource{mybib.bib}
 \makeindex
 \usepackage{graphicx}
@@ -18,7 +18,25 @@
 \usepackage{color}
 \usepackage{xcolor}
 \usepackage[most]{tcolorbox}
- 
+\usepackage{amssymb}
+\usepackage{lmodern}
+\usepackage{caption,subcaption}
+\usepackage{wrapfig}
+\usepackage{lipsum}
+
+% Umlaute und ß in Listings
+\lstset{basicstyle=\ttfamily}
+\lstset{literate=%
+  {Ö}{{\"O}}1
+  {Ä}{{\"A}}1
+  {Ü}{{\"U}}1
+  {ß}{{\ss}}1
+  {ü}{{\"u}}1
+  {ä}{{\"a}}1
+  {ö}{{\"o}}1
+}
+
+% Farben für Listings
 \definecolor{codegreen}{rgb}{0,0.6,0}
 \definecolor{codegray}{rgb}{0.5,0.5,0.5}
 \definecolor{codepurple}{rgb}{0.58,0,0.82}
@@ -33,7 +51,7 @@
     basicstyle=\footnotesize,
     breakatwhitespace=false,         
     breaklines=true,                 
-    captionpos=b,                    
+    captionpos=t,                    
     keepspaces=true,                 
     numbers=left,                    
     numbersep=5pt,                  
@@ -51,6 +69,18 @@
 
 % Im Dokument genutzte Makros
 \newenvironment{hlbox}{\begin{tcolorbox}[enhanced,colback=white,colframe=white,sharpish corners,fuzzy halo=0.5mm with lightgray]}{\end{tcolorbox}}
+\renewenvironment{bmatrix}
+{ \begin{center} \begin{em} }
+{ \end{em} \end{center} }
+
+\usepackage{fancyhdr}
+ 
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Luca Kiebel \includegraphics[width=0.025\linewidth]{hbbk-logo}}
+\lhead{Makros in \LaTeX}
+\lfoot{ \leftmark}
+\rfoot{Seite \thepage}
 
 \begin{document}
 \maketitle
@@ -59,31 +89,198 @@
 \newpage
 
 \section{Einleitung}
-Die meisten \LaTeX Befehle sind einfache Worte mit einem Backslash davor:
-
-\begin{lstlisting}
-In einem \LaTeX \ Dokument gibt es verschiedene \textbf{Befehle}{,} \\
-die Text verschieden \textit{darstellen}.
+\label{sec:Einleitung}
+Die meisten \LaTeX \ Befehle sind einfache Worte mit einem Backslash davor:
+\begin{lstlisting}[caption = Befehle]
+In einem \LaTeX \ Dokument gibt es verschiedene \textbf{Befehle}, \\
+die Text verschieden \textit{darstellen} können.
 \end{lstlisting} 
 \begin{hlbox}
-In einem \LaTeX \ Dokument gibt es verschiedene \textbf{Befehle}{,} \\
-die Text verschieden \textit{darstellen}.
+In einem \LaTeX \ Dokument gibt es verschiedene \textbf{Befehle}, \\
+die Text verschieden \textit{darstellen} können.
 \end{hlbox}
 Makros sind selbstdefinierte Befehle, die entweder alte Kommandos überschreiben oder neue definieren.
 Sie sind standardmäßig in \LaTeX \ integriert und müssen nicht als Paket eingefügt werden. 
+Es gibt drei wichtige Befehle zum erstellen von Makros:\\
+\begin{itemize}
+\item[] \lstinline|\newcommand| erstellt einen neuen Befehl und gibt einen Fehler aus, wenn der Befehl schon existiert.
+\item[] \lstinline|\renewcommand| erneuert einen Befehl mit der übergebenen Programmsequenz und gibt einen Fehler aus, wenn der Befehl noch nicht existiert. 
+\item[] \lstinline|\providecommand| erstellt ebenfalls einen neuen Befehl, wird aber ignoriert, sollte der Befehl schon existieren.
+\end{itemize}
+Informationen aus dem folgenden Teil sind entnommen aus \cite{wiki:macros}
 
 \section{Befehle definieren}
-
+\label{sec:BefehleDef}
 \LaTeX \ kommt mit einer großen Anzahl von Befehlen für viele Aufgaben, dennoch ist es manchmal notwendig, einige spezielle Befehle zu definieren, um wiederholte oder komplexe Formatierungen zu vereinfachen und zu verkürzen. Hier kommen Makros ins Spiel.
-
+\newcommand{\R}{\( \mathbb{R} \)}
 \subsection{Einfache Makros}
-Neue Befehle werden durch die {\textbackslash}newcommand-Anweisung definiert. Will man zum Beispiel alle Reellen Zahlen ausgeben{,} so kann der Befehl \lstinline|{}| einfach durch das Makro \lstinline|\R| ersetzt werden:
-\begin{lstlisting}
-\newcommand{\R}{\mathbb{R}}
+\label{ssec:EinfacheMak}
+Neue Befehle werden durch die \texttt{{\textbackslash}newcommand}-Anweisung definiert. Will man zum Beispiel alle Reellen Zahlen ausgeben, so kann der Befehl \lstinline|\(\mathbb{R}\)| einfach durch das Makro \lstinline|\R| ersetzt werden:
+\begin{lstlisting}[caption = newcommand]
+\newcommand{\R}{\(\mathbb{R}\)}
+Die Zahl n ist Teil der Menge der reellen Zahlen \R 
 \end{lstlisting}
+\begin{hlbox}
+Die Zahl n ist Teil der Menge der reellen Zahlen \R 
+\end{hlbox}
+\newpage
 
-Dieser neue Befehl kann dann im \LaTeX \ Code an jeder Stelle genutzt werden{,} $  $
+Dieser neue Befehl kann dann im \LaTeX \ Code an jeder Stelle genutzt werden. \\
+Die Anweisung hat 2 Parameter, die den neuen Befehl definieren:
+\begin{itemize}
+\item[] \lstinline|\R| ist der Name des neuen Befehls
+\item[] \lstinline|\(\mathbb{R}\)| ist die Abfolge an Befehlen, die das Makro ausführt.
+\end{itemize}
+
+\subsection{Makros mit Parametern}
+\label{ssec:MakMPara}
+\newcommand{\mz}[1]{\(\mathbb{#1}\)}
+Es ist auch möglich, Makros zu definieren, die Parameter annehmen, um die übergebenen Daten in dem Makro zu verarbeitern: \\
+Um einen einfacheren Weg zu haben Mengensymbole in \LaTeX \ auszugeben kann man sich einen speziellen Befehl definieren. \\
+\begin{lstlisting}[caption = Mengenzeichen]
+\newcommand{\mz}[1]{\(\mathbb{#1}\)}
+Wenn die Zahl n Teil der Menge der ganzen Zahlen \mz{Z} ist, ist sie auch Teil der Menge der reellen Zahlen \mz{R}
+\end{lstlisting}
+\begin{hlbox}
+Wenn die Zahl n Teil der Menge der ganzen Zahlen \mz{Z} ist, ist sie auch Teil der Menge der reellen Zahlen \mz{R}
+\end{hlbox}
+Die Zeile \lstinline|\newcommand{\mz}[1]{\(\mathbb{#1}\)}| definiert einen Befehl, der ein Parameter akzeptiert.
+\begin{itemize}
+\item[] \lstinline|\mz|  ist der Name des neuen Befehls.
+\item[] \lstinline|[1]|  ist die Anzahl der akzeptierten Parameter
+\item[] \lstinline|\(\mathbb{#1}\)|  ist der ausgeführte Befehl. Anstatt, dass wie zuvor der Buchstabe für das Mengensymbol fest gesetzt ist, wird hier automatisch der erste Parameter eingesetzt.
+\end{itemize}
+Ein Makro kann bis zu 9 Parameter haben, auf die dann mit \#1, \#2 usw. zugegriffen werden kann.
+
+\subsection{Makros mit optinalen Parametern}
+\label{ssec:MakMOptPara}
+\newcommand{\bp}[3][2]{\((#2 + #3) ^ #1\)}
+Makros können auch so erstellt werden, dass nur ein Teil der Parameter beim Aufruf gesetzt sein muss. Für die anderen Parameter wird ein Standardwert festgelegt. 
+Will man zum Beispiel einen Befehl, der die 1. binomische Formel oft nutzen, so kann man dies einfach als Makro schreiben:
+\newpage
+\begin{lstlisting}[caption = binomisch Plus]
+\newcommand{\bp}[3][2]{\((#2 + #3) ^ #1\)}
+\bp{x}{y}
+\end{lstlisting}
+\begin{hlbox}
+\bp{x}{y}
+\end{hlbox}
+In der Zeile \lstinline|\newcommand{\bp}[3][2]{\((#2 + #3) ^ #1\)}| gibt
+\begin{itemize}
+\item[] \lstinline|\bp| den Namen des neuen Befehls an. 
+\item[] \lstinline|[3]| ist die Anzahl der Parameter. 
+\item[] \lstinline|[2]| ist der Standardwert des ersten Parameters, in diesem Fall 2. 
+\item[] \lstinline|[2]| ist der Standardwert des ersten Parameters, in diesem Fall 2. 
+\item[] \lstinline|\((#2 + #3) ^ #1\)| ist der ausgeführte Befehl.
+\end{itemize}
+Wenn nun der optinale Parameter auch gesetzt wird, kann der Exponent auch geändert werden:
+\begin{lstlisting}[caption = binomisch Plus hoch 4]
+\bp[4]{32}{48}
+\end{lstlisting}
+\begin{hlbox}
+\bp[4]{32}{48}
+\end{hlbox}
+\lstinline|[4]| ist der Wert, mit dem der Standardwert des optinalen Parameters überschrieben wird. \\ \\
+Will man mehr als einen optionalen Parameter definieren, lässt sich dies mit dem Paket \texttt{xparse}\footcite{so:xparse} realisieren.
+\newpage
+
+\section{Bestehende Befehle überschreiben}
+\label{sec:Ueberschreiben}
+
+Definiert man einen Befehl, der den gleichen Namen wie ein bereits vorhandener \LaTeX-Befehl hat, wird eine Fehlermeldung in der Kompilierung des Dokuments angezeigt und der definierte Befehl funktioniert nicht. Wenn man wirklich einen bestehenden Befehl überschreiben will, kann man dies mit \texttt{renewcommand} erreichen. \\
+Es ist zum Beispiel sinnvoll Befehle neu zu definieren, wenn man diese immer mit den gleichen Einstellungen braucht, und den Namen beibehalten will. In Präsentationen nutze ich \texttt{renewcommand} um den Befehl \lstinline|\footnotesize| zu erneuern:
+\begin{lstlisting}[caption = kleine Fußnoten]
+% Setze die größe der Fußnoten auf klein
+\renewcommand{\footnotesize}{\small}
+\end{lstlisting}
+Der Syntax ist dem von \lstinline|\newcommand| sehr ähnlich:
+\begin{itemize}
+\item[] \lstinline|\footnotesize| ist der Name des Befehls, der ersetzt oder erneuert werden soll.
+\item[] \lstinline|\small| ist der Befehl, durch den \lstinline|\footnotesize| ersetzt wird. 
+\end{itemize}
+In diesem Fall muss kein Wert über einen Parameter übergeben werden, \lstinline|\small| ändert die Größe aller darauffolgenden Zeichen:
+\begin{lstlisting}[caption = groß und klein]
+\large Groß \\
+\small Klein
+\end{lstlisting}
+\begin{hlbox}
+\large Groß \\
+\small Klein
+\end{hlbox}
+Es lassen sich Befehle ebenfalls so überschreriben, dass sie Parameter akzeptieren, diese können auch optional sein. Der Syntax ist der selbe, wie bei \nameref{ssec:MakMOptPara}.
+\newpage
+\section{Umgebungen definieren}
+\label{sec:UmgDef}
+Umgebungen sind Makros, die auf einen begrenzten Textbereich wirken. Sie werden mit den Befehlen \lstinline|\begin{...}| und \lstinline|\end{...}| eingerahmt. Neue (eigene) Umgebungen werden mittels \lstinline|\newenvironment| definiert. Viele Änderungen innerhalb einer Umgebung werden am Ende der Umgebung aufgehoben. \footcite{wiki:environment} \\
+\begin{lstlisting}[caption = zentrierter Text]
+\begin{center}
+Dieser Text ist zentriert
+\end{center}
+\end{lstlisting}
+\begin{hlbox}
+\begin{center}
+Dieser Text ist zentriert
+\end{center}
+\end{hlbox}
+\begin{itemize}
+\item[] \lstinline|\begin{center}| ist der Anfang des \texttt{center}-Blocks. 
+\item[] \enquote{Dieser Text ist zentriert} ist der zentrierte Text innerhalb des \texttt{center}-Blocks.
+\item[] \lstinline|\end{center}| ist das Ende des \texttt{center}-Blocks. 
+\end{itemize}
+Zur Darstellung der Ergebnisse nach den Listings, verwende ich das folgende Makro (hier mit Zeillenumbrüchen):
+\begin{lstlisting}[caption = Highlightbox]
+\newenvironment{hlbox}
+{\begin{tcolorbox}[enhanced,colback=white,colframe=white,sharpish corners,fuzzy halo=0.5mm with lightgray]}
+{\end{tcolorbox}}
+\end{lstlisting}
+\begin{itemize}
+\item[] Die Zeile \lstinline|\newenvironment{hlbox}| gibt den Namen der neuen Umgebung an. 
+\item[] Die darauffolgende Zeile gibt den ersten Teil der Umgebung an, der mit \lstinline|\begin{hlbox}| aufgerufen wird. Hier wird der erste Makroteil, der vor dem Text zur darstellung kommt definiert.
+\item[] \lstinline|[enhanced,colb...| sind die Optionen, die auf die \texttt{tcolorbox} angewendet werden.
+\item[] \lstinline|{\end{tcolorbox}}| bestimmt den Teil der Umgebung, der nach dem Text zur darstellung kommt.
+\end{itemize}
+
+\newpage
+
+\section{Bestehende Umgebungen überschreiben}
+\label{sec:UmgUeberschreiben}
+Bestehende Umgebungen können mit dem Befehl \lstinline|\renewenvironment| neu definiert werden. 
+\begin{lstlisting}
+\renewenvironment{bmatrix}
+{ \begin{center} \begin{em} }
+{ \end{em} \end{center} }
+
+\begin{bmatrix}
+Anstelle von einer Matrix ist dieser Text zentriert und hervorgehoben
+\end{bmatrix}
+\end{lstlisting}
+\begin{hlbox}
+\begin{bmatrix}
+Anstelle von einer Matrix in Klammern ist dieser Text zentriert und hervorgehoben
+\end{bmatrix}
+\end{hlbox}
+\begin{itemize}
+\item[] \lstinline|bmatrix| ist der Name der Umgebung, die erneuert werden soll.
+\item[] \lstinline|{ \begin{center} \begin{em} }| ist der Teil, der vor dem eingesetzten Text kommt.
+\item[] \lstinline|{ \end{em} \end{center} }| ist der Teil des Makros, der nach dem eingesetzten Text kommt und die Umgebung beendet.
+\end{itemize}
+
+\section{Nachtrag}
+Hier ein textumflossendes Bild einer Katze:
+
+\begin{wrapfigure}{R}{0.3\textwidth}
+\centering
+\includegraphics[width=0.2\textwidth]{katze}
+\caption{Katze}
+\label{fig:katze}
+\end{wrapfigure}
+
+\lipsum[1]
+
 \newpage
 \printbibliography
+\newpage
+\lstlistoflistings
+\listoffigures
 
 \end{document}

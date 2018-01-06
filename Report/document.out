@@ -1,3 +1,9 @@
 \BOOKMARK [1][-]{section.1}{Einleitung}{}% 1
 \BOOKMARK [1][-]{section.2}{Befehle definieren}{}% 2
 \BOOKMARK [2][-]{subsection.2.1}{Einfache Makros}{section.2}% 3
+\BOOKMARK [2][-]{subsection.2.2}{Makros mit Parametern}{section.2}% 4
+\BOOKMARK [2][-]{subsection.2.3}{Makros mit optinalen Parametern}{section.2}% 5
+\BOOKMARK [1][-]{section.3}{Bestehende Befehle \374berschreiben}{}% 6
+\BOOKMARK [1][-]{section.4}{Umgebungen definieren}{}% 7
+\BOOKMARK [1][-]{section.5}{Bestehende Umgebungen \374berschreiben}{}% 8
+\BOOKMARK [1][-]{section.6}{Nachtrag}{}% 9
