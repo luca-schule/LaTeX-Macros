@@ -1,7 +1,149 @@
+\defcounter {refsection}{0}\relax 
 \headcommand {\slideentry {0}{0}{1}{1/1}{}{0}}
+\defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {1}{1}}
-\headcommand {\beamer@partpages {1}{1}}
-\headcommand {\beamer@subsectionpages {1}{1}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\sectionentry {1}{Befehle in \LaTeX }{2}{Befehle in \LaTeX }{0}}
+\defcounter {refsection}{0}\relax 
 \headcommand {\beamer@sectionpages {1}{1}}
-\headcommand {\beamer@documentpages {1}}
-\headcommand {\def \inserttotalframenumber {1}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionpages {1}{1}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {1}{0}{1}{2/2}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {2}{2}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {1}{0}{2}{3/3}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {3}{3}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\sectionentry {2}{Makros}{4}{Makros}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@sectionpages {2}{3}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionpages {2}{3}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{0}{1}{4/4}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {4}{4}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{0}{2}{5/7}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {5}{7}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionentry {0}{2}{1}{8}{Wichtige Befehle}}\headcommand {\beamer@subsectionpages {4}{7}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {2}{1}{1}{8/12}{Wichtige Befehle}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {8}{12}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\sectionentry {3}{Befehle definieren}{13}{Befehle definieren}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@sectionpages {4}{12}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionpages {8}{12}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {3}{0}{1}{13/13}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {13}{13}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionentry {0}{3}{1}{14}{Einfache Makros}}\headcommand {\beamer@subsectionpages {13}{13}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {3}{1}{1}{14/14}{Einfache Makros}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {14}{14}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {3}{1}{2}{15/15}{Einfache Makros}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {15}{15}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionentry {0}{3}{2}{16}{Makros mit Parametern}}\headcommand {\beamer@subsectionpages {14}{15}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {3}{2}{1}{16/16}{Makros mit Parametern}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {16}{16}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {3}{2}{2}{17/17}{Makros mit Parametern}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {17}{17}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionentry {0}{3}{3}{18}{Makros mit optinalen Parametern}}\headcommand {\beamer@subsectionpages {16}{17}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {3}{3}{1}{18/18}{Makros mit optinalen Parametern}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {18}{18}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {3}{3}{2}{19/19}{Makros mit optinalen Parametern}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {19}{19}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {3}{3}{3}{20/20}{Makros mit optinalen Parametern}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {20}{20}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\sectionentry {4}{Bestehende Befehle \IeC {\"u}berschreiben}{21}{Bestehende Befehle \IeC {\"u}berschreiben}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@sectionpages {13}{20}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionpages {18}{20}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {4}{0}{1}{21/21}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {21}{21}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {4}{0}{2}{22/23}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {22}{23}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {4}{0}{3}{24/26}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {24}{26}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {4}{0}{4}{27/27}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {27}{27}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\sectionentry {5}{Umgebungen definieren}{28}{Umgebungen definieren}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@sectionpages {21}{27}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionpages {21}{27}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {5}{0}{1}{28/28}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {28}{28}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {5}{0}{2}{29/31}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {29}{31}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {5}{0}{3}{32/36}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {32}{36}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {5}{0}{4}{37/41}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {37}{41}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\sectionentry {6}{Bestehende Umgebungen \IeC {\"u}berschreiben}{42}{Bestehende Umgebungen \IeC {\"u}berschreiben}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@sectionpages {28}{41}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionpages {28}{41}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {6}{0}{1}{42/42}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {42}{42}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {6}{0}{2}{43/44}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {43}{44}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {6}{0}{3}{45/48}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {45}{48}}
+\headcommand {\beamer@partpages {1}{48}}
+\headcommand {\beamer@subsectionpages {42}{48}}
+\headcommand {\beamer@sectionpages {42}{48}}
+\headcommand {\beamer@documentpages {48}}
+\headcommand {\def \inserttotalframenumber {25}}

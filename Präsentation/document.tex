@@ -1,37 +1,256 @@
-\documentclass[10pt,a4paper]{beamer}
+\documentclass[10pt,a4paper, ngerman]{beamer}
 				
-\usepackage[ngerman]{babel}
-\usepackage[T1]{fontenc}
-\usepackage[utf8]{inputenc}
-\usepackage{varioref}
-\usepackage{hyperref}
-\usepackage{cleveref}
-\usepackage{amsmath}
-\usepackage{amsfonts}
-\usepackage{amssymb}
-\usepackage{makeidx}
-\usepackage{graphicx}
-\usepackage{csquotes}
+\include{beamer-with-code}
 
-\setbeamercolor{logo}{bg=white}  %controls the color of the logo area
-\setbeamertemplate{navigation symbols}{}
+\usepackage[style=authortitle,backend=biber, natbib=true, hyperref=true]{biblatex}
+\addbibresource{mybib.bib}
+\makeindex
 
-\usetheme{PaloAlto}
-\renewcommand{\footnotesize}{\small}
-\newcommand{\pftn}[1]{\let\thefootnote\relax\footnotetext{\tiny #1}}
-\newcommand{\ftn}[2]{\footnote[#1]{\tiny #2}}
+\AtBeginSection{\frame{\frametitle{Gliederung}\tableofcontents[currentsection]}}
 
-\logo{\includegraphics[width=0.155\linewidth]{hbbk-logo}}
-\author{Luca Kiebel}
-\title{\LaTeX   Makros}
+\setbeamercovered{transparent}
+
+\title{Makros in \LaTeX}
 %\subtitle{subtitle}
 \date{\today}
+\institute[HBBK]{Hans-Böckler-Berufskolleg}
 \setlength{\itemsep}{10pt}
 \begin{document}
 \begin{frame}
 \titlepage
 \end{frame}
 
+\section{Befehle in \LaTeX}
 
+\begin{frame}[fragile]
+\frametitle{Befehle in \LaTeX}
+\begin{lstlisting}[caption = Befehle]
+In einem \LaTeX \ Dokument gibt es verschiedene \textbf{Befehle}, \\
+die Text verschieden \textit{darstellen} können.
+\end{lstlisting} 
+\begin{hlbox}
+In einem \LaTeX \ Dokument gibt es verschiedene \textbf{Befehle}, \\
+die Text verschieden \textit{darstellen} können.
+\end{hlbox}
+\end{frame}
+
+
+\section{Makros}
+\begin{frame}{Makros}
+\begin{itemize} 
+\item Makros sind selbst-definierte Befehle
+\pause
+\item Definition neuer, oder Redifinition alter Befehle
+\pause
+\item Standardmäßig in \LaTeX \ integriert
+\end{itemize}
+\end{frame}
+
+\subsection{Wichtige Befehle}
+
+\begin{frame}[fragile]{Wichtige Befehle}
+\begin{tabular}{l|p{0.7\textwidth}}
+\textbf{Befehl} & \textbf{Beschreibung} \\ \hline
+\lstinline|\newcommand| & Erstellt neuen Befehl. Fehler, wenn der Befehl schon existiert \\ \pause
+\lstinline|\renewcommand| & Überschreibt einen bestehenden Befehl. Fehler, wenn der Befehl noch nicht existiert \\ \pause
+\lstinline|\providecommand| & Erstellt neuen Befehl. Wird ignoriert, wenn Befehl existiert \\ \pause
+\lstinline|\newenvironment| & Erstellt neue Umgebung. Fehler, wenn diese bereits existiert  \\ \pause
+\lstinline|\renewenvironment|  & Überschreibt eine Umgebung. Fehler, wenn diese noch nicht existiert \\
+\end{tabular}
+\end{frame}
+
+\section{Befehle definieren}
+\subsection{Einfache Makros}
+
+\begin{frame}[fragile]{Befehle definieren}{Einfache Makros}
+\newcommand{\R}{\( \mathbb{R} \)}
+\begin{lstlisting}[caption = newcommand]
+\newcommand{\R}{\(\mathbb{R}\)}
+Die Zahl n ist Teil der Menge der reellen Zahlen \R 
+\end{lstlisting}
+\begin{hlbox}
+Die Zahl n ist Teil der Menge der reellen Zahlen \R 
+\end{hlbox}
+\end{frame}
+
+\begin{frame}[fragile]{Befehle definieren}{Einfache Makros}
+\begin{lstlisting}
+\newcommand{\R}{\(\mathbb{R}\)}
+\end{lstlisting}
+\begin{itemize}
+\item \lstinline|\R|: Name des neuen Befehls
+\item \lstinline|\(\mathbb{R}\)|: Abfolge an ausgeführten Befehlen
+\end{itemize}
+\end{frame}
+
+\subsection{Makros mit Parametern}
+
+\begin{frame}[fragile]{Befehle definieren}{Makros mit Parametern}
+\newcommand{\mz}[1]{\(\mathbb{#1}\)}
+\begin{lstlisting}[caption = Mengenzeichen]
+\newcommand{\mz}[1]{\(\mathbb{#1}\)}
+Wenn die Zahl n Teil der Menge der ganzen Zahlen \mz{Z} ist, ist sie auch Teil der Menge der reellen Zahlen \mz{R}
+\end{lstlisting}
+\begin{hlbox}
+Wenn die Zahl n Teil der Menge der ganzen Zahlen \mz{Z} ist, ist sie auch Teil der Menge der reellen Zahlen \mz{R}
+\end{hlbox}
+\end{frame}
+
+\begin{frame}[fragile]{Befehle definieren}{Makros mit Parametern}
+\begin{lstlisting}
+\newcommand{\mz}[1]{\(\mathbb{#1}\)}
+\end{lstlisting}
+\begin{itemize}
+\item \lstinline|\mz|  ist der Name des neuen Befehls.
+\item \lstinline|[1]|  ist die Anzahl der akzeptierten Parameter
+\item \lstinline|\(\mathbb{#1}\)|  ist der ausgeführte Befehl. 
+\end{itemize}
+\end{frame}
+\newcommand{\bp}[3][2]{\((#2 + #3) ^ #1\)}
+\subsection{Makros mit optinalen Parametern}
+\begin{frame}[fragile]{Befehle definieren}{Makros mit optinalen Parametern}
+\begin{lstlisting}[caption = binomisch Plus]
+\newcommand{\bp}[3][2]{\((#2 + #3) ^ #1\)}
+\bp{x}{y}
+\end{lstlisting}
+\begin{hlbox}
+\bp{x}{y}
+\end{hlbox}
+\end{frame}
+
+\begin{frame}[fragile]{Befehle definieren}{Makros mit optionalen Parametern}
+\begin{lstlisting}
+\newcommand{\bp}[3][2]{\((#2 + #3) ^ #1\)}
+\end{lstlisting}
+\begin{itemize}
+\item \lstinline|\bp| den Namen des neuen Befehls an. 
+\item \lstinline|[3]| ist die Anzahl der Parameter. 
+\item \lstinline|[2]| ist der Standardwert des ersten Parameters
+\item \lstinline|\((#2 + #3) ^ #1\)| ist der ausgeführte Befehl.
+\end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]{Befehle definieren}{Makros mit optionalen Parametern}
+\begin{lstlisting}[caption = binomisch Plus hoch 4]
+\bp[4]{32}{48}
+\end{lstlisting}
+\begin{hlbox}
+\bp[4]{32}{48}
+\end{hlbox}
+\begin{itemize}
+\item \lstinline|[4]| Standardparameter überschreibender Wert
+\end{itemize}
+\end{frame}
+
+\section{Bestehende Befehle überschreiben}
+\begin{frame}[fragile]{Bestehende Befehle überschreiben}
+\begin{itemize}
+\item Befehl: \lstinline|\renewcommand|
+\pause
+\item Vom System verwendete Befehle können überschrieben werden
+\item Fehler wenn Befehl noch nicht definiert
+\end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]{Bestehende Befehle überschreiben}
+\begin{lstlisting}[caption = kleine Fußnoten]
+% Setze die größe der Fußnoten auf klein
+\renewcommand{\footnotesize}{\small}
+\end{lstlisting}
+\pause
+Der Syntax ist dem von \lstinline|\newcommand| sehr ähnlich:
+\begin{itemize}
+\item \lstinline|\footnotesize| der Name des Befehls, der erneuert werden soll. \pause
+\item \lstinline|\small| ist der Befehl, durch den \lstinline|\footnotesize| ersetzt wird. 
+\end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]{Bestehende Befehle überschreiben}
+\begin{lstlisting}[caption = groß und klein]
+\large Groß \\
+\small Klein
+\end{lstlisting}
+\begin{hlbox}
+\large Groß \\
+\small Klein
+\end{hlbox}
+\end{frame}
+
+\section{Umgebungen definieren}
+\begin{frame}[fragile]{Umgebungen definieren}
+\begin{itemize}
+\pftn{{L}a{T}e{X}-{W}örterbuch: {U}mgebung --- {W}ikibooks{,} {D}ie freie {B}ibliothek}
+\item Wirken auf begrenzten Textbereich \pause
+\item Begrenzt durch \lstinline|\begin{...}| und \lstinline|\end{...}| \pause
+\item Änderungen werden am Ende der Umgebung aufgehoben  
+\end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]{Umgebungen definieren}
+\begin{lstlisting}[caption = zentrierter Text]
+\begin{center}
+Dieser Text ist zentriert
+\end{center}
+\end{lstlisting}
+\pause
+\begin{hlbox}
+\begin{center}
+Dieser Text ist zentriert
+\end{center}
+\end{hlbox}
+\pause
+\begin{itemize}
+\item \lstinline|\begin{center}| ist der Anfang des \texttt{center}-Blocks.  \pause
+\item \enquote{Dieser Text ist zentriert} ist der zentrierte Text innerhalb des \texttt{center}-Blocks. \pause
+\item \lstinline|\end{center}| ist das Ende des \texttt{center}-Blocks. 
+\end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]{Umgebungen definieren}
+\begin{lstlisting}[caption = Highlightbox]
+\newenvironment{hlbox}
+{\begin{tcolorbox}[enhanced,colback=white,colframe=white,sharpish corners,fuzzy halo=0.5mm with lightgray]}
+{\end{tcolorbox}}
+\end{lstlisting} \pause
+\begin{itemize}
+\item \lstinline|\newenvironment{hlbox}|: Name der neuen Umgebung \pause
+\item \lstinline|{\begin{tcolorbox}|: Erster Teil der Umgebung \pause
+\item \lstinline|[enhanced,colb...| Optionen für \texttt{tcolorbox} \pause
+\item \lstinline|{\end{tcolorbox}}|: Letzter Teil der Umgebung
+\end{itemize}
+\end{frame}
+\renewenvironment{bmatrix}
+{ \begin{center} \begin{em} }
+{ \end{em} \end{center} }
+\section{Bestehende Umgebungen überschreiben}
+\begin{frame}[fragile]{Bestehende Umgebungen überschreiben}
+\begin{lstlisting}[caption=Matrix]
+\renewenvironment{bmatrix}
+{ \begin{center} \begin{em} }
+{ \end{em} \end{center} }
+
+\begin{bmatrix}
+zentrierter Text
+\end{bmatrix}
+\end{lstlisting} \pause
+\begin{hlbox}
+\begin{bmatrix}
+zentrierter Text
+\end{bmatrix}
+\end{hlbox}
+\end{frame}
+
+\begin{frame}[fragile]{Bestehende Umgebungen überschreiben}
+\begin{lstlisting}[caption=Matrix]
+\renewenvironment{bmatrix}
+{ \begin{center} \begin{em} }
+{ \end{em} \end{center} }
+\end{lstlisting} \pause
+\begin{itemize}
+\item \lstinline|bmatrix|: Name der Umgebung \pause
+\item \lstinline|{ \begin{center} \begin{em} }|: Teil vor dem eingesetzten Text \pause
+\item \lstinline|{ \end{em} \end{center} }|: Teil, der 2. beendet 
+\end{itemize}
+\end{frame}
 
 \end{document}

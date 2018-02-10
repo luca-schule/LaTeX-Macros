@@ -1,0 +1,11 @@
+\frametitle{Bestehende Umgebungen überschreiben}
+\begin{lstlisting}[caption=Matrix]
+\renewenvironment{bmatrix}
+{ \begin{center} \begin{em} }
+{ \end{em} \end{center} }
+\end{lstlisting} \pause
+\begin{itemize}
+\item \lstinline|bmatrix|: Name der Umgebung \pause
+\item \lstinline|{ \begin{center} \begin{em} }|: Teil vor dem eingesetzten Text \pause
+\item \lstinline|{ \end{em} \end{center} }|: Teil, der 2. beendet
+\end{itemize}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.9.25)  23 DEC 2017 14:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.9.25)  6 FEB 2018 08:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -657,6 +657,10 @@ emedefault.sty
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/beamer/themes/outer/beamerouterth
 emedefault.sty)))
+\@input{beamer-with-code.aux}
+\openout2 = `beamer-with-code.aux'.
+
+(./beamer-with-code.tex
 (/usr/local/texlive/2017/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2017/05/19 3.10 The Babel package
 
@@ -1038,40 +1042,654 @@ Package csquotes Info: ... configuration file loaded successfully.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/csquotes/csquotes.cfg
 File: csquotes.cfg 
 ))
+(/usr/local/texlive/2017/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count162
+\lst@gtempboxa=\box53
+\lst@token=\toks46
+\lst@length=\count163
+\lst@currlwidth=\dimen189
+\lst@column=\count164
+\lst@pos=\count165
+\lst@lostspace=\dimen190
+\lst@width=\dimen191
+\lst@newlines=\count166
+\lst@lineno=\count167
+\lst@maxwidth=\dimen192
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+\c@lstnumber=\count168
+\lst@skipnumbers=\count169
+\lst@framebox=\box54
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2015/06/04 1.6 listings configuration
+))
+Package: listings 2015/06/04 1.6 (Carsten Heinz)
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
+Package: tcolorbox 2017/04/25 version 4.03 text color boxes
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.cod
+e.tex
+File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
+\pgfnodeparttextbox=\box55
+)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.
+tex
+File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-0-65.sty
+Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
+\pgf@nodesepstart=\dimen193
+\pgf@nodesepend=\dimen194
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-1-18.sty
+Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
+)) (/usr/local/texlive/2017/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks47
+\verbatim@line=\toks48
+\verbatim@in@stream=\read2
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/environ/environ.sty
+Package: environ 2014/05/04 v0.3 A new way to define environments
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/trimspaces/trimspaces.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+))
+\tcb@titlebox=\box56
+\tcb@upperbox=\box57
+\tcb@lowerbox=\box58
+\tcb@phantombox=\box59
+\c@tcbbreakpart=\count170
+\c@tcblayer=\count171
+\tcolorbox@number=\count172
+\tcb@temp=\box60
+\tcb@temp=\box61
+\tcb@temp=\box62
+\tcb@temp=\box63
+\tcb@out=\write5
+\tcb@record@out=\write6
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/tcolorbox/tcbraster.code.tex
+Library (tcolorbox): 'tcbraster.code.tex' version '4.03'
+\c@tcbrastercolumn=\count173
+\c@tcbrasterrow=\count174
+\c@tcbraster=\count175
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/tcolorbox/tcbskins.code.tex
+Library (tcolorbox): 'tcbskins.code.tex' version '4.03'
+(/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen195
+\pgffor@skip=\dimen196
+\pgffor@stack=\toks49
+\pgffor@toks=\toks50
+))
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.cod
+e.tex
+Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
+dlers.code.tex
+File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
+\pgf@plot@mark@count=\count176
+\pgfplotmarksize=\dimen197
+)
+\tikz@lastx=\dimen198
+\tikz@lasty=\dimen199
+\tikz@lastxsaved=\dimen256
+\tikz@lastysaved=\dimen257
+\tikzleveldistance=\dimen258
+\tikzsiblingdistance=\dimen259
+\tikz@figbox=\box64
+\tikz@figbox@bg=\box65
+\tikz@tempbox=\box66
+\tikz@tempbox@bg=\box67
+\tikztreelevel=\count177
+\tikznumberofchildren=\count178
+\tikznumberofcurrentchild=\count179
+\tikz@fig@count=\count180
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
+e.tex
+File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
+\pgfmatrixcurrentrow=\count181
+\pgfmatrixcurrentcolumn=\count182
+\pgf@matrix@numberofcolumns=\count183
+)
+\tikz@expandcount=\count184
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
+)))
+\tcb@waterbox=\box68
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/tcolorbox/tcbskinsjigsaw.code.tex
+Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '4.03'
+))
+(/usr/local/texlive/2017/texmf-dist/tex/latex/tcolorbox/tcbbreakable.code.tex
+Library (tcolorbox): 'tcbbreakable.code.tex' version '4.03'
+\tcb@testbox=\box69
+\tcb@totalupperbox=\box70
+\tcb@totallowerbox=\box71
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/tcolorbox/tcbhooks.code.tex
+Library (tcolorbox): 'tcbhooks.code.tex' version '4.03'
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/tcolorbox/tcbtheorems.code.tex
+Library (tcolorbox): 'tcbtheorems.code.tex' version '4.03'
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/tcolorbox/tcbfitting.code.tex
+Library (tcolorbox): 'tcbfitting.code.tex' version '4.03'
+\tcbfitdim=\dimen260
+\tcb@lowerfitdim=\dimen261
+\tcb@upperfitdim=\dimen262
+\tcb@cur@hbadness=\count185
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/tcolorbox/tcbxparse.code.tex
+Library (tcolorbox): 'tcbxparse.code.tex' version '4.03'
+(/usr/local/texlive/2017/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2017/05/13 L3 programming layer (loader) 
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/l3kernel/expl3-code.tex
+Package: expl3 2017/05/13 L3 programming layer (code)
+\c_max_int=\count186
+\l_tmpa_int=\count187
+\l_tmpb_int=\count188
+\g_tmpa_int=\count189
+\g_tmpb_int=\count190
+\g__prg_map_int=\count191
+\c_log_iow=\count192
+\l_iow_line_count_int=\count193
+\l__iow_line_target_int=\count194
+\l__iow_one_indent_int=\count195
+\l__iow_indent_int=\count196
+\c_zero_dim=\dimen263
+\c_max_dim=\dimen264
+\l_tmpa_dim=\dimen265
+\l_tmpb_dim=\dimen266
+\g_tmpa_dim=\dimen267
+\g_tmpb_dim=\dimen268
+\c_zero_skip=\skip57
+\c_max_skip=\skip58
+\l_tmpa_skip=\skip59
+\l_tmpb_skip=\skip60
+\g_tmpa_skip=\skip61
+\g_tmpb_skip=\skip62
+\c_zero_muskip=\muskip12
+\c_max_muskip=\muskip13
+\l_tmpa_muskip=\muskip14
+\l_tmpb_muskip=\muskip15
+\g_tmpa_muskip=\muskip16
+\g_tmpb_muskip=\muskip17
+\l_keys_choice_int=\count197
+\c__fp_leading_shift_int=\count198
+\c__fp_middle_shift_int=\count199
+\c__fp_trailing_shift_int=\count266
+\c__fp_big_leading_shift_int=\count267
+\c__fp_big_middle_shift_int=\count268
+\c__fp_big_trailing_shift_int=\count269
+\c__fp_Bigg_leading_shift_int=\count270
+\c__fp_Bigg_middle_shift_int=\count271
+\c__fp_Bigg_trailing_shift_int=\count272
+\c__fp_rand_size_int=\count273
+\c__fp_rand_four_int=\count274
+\c__fp_rand_eight_int=\count275
+\l__sort_length_int=\count276
+\l__sort_min_int=\count277
+\l__sort_top_int=\count278
+\l__sort_max_int=\count279
+\l__sort_true_max_int=\count280
+\l__sort_block_int=\count281
+\l__sort_begin_int=\count282
+\l__sort_end_int=\count283
+\l__sort_A_int=\count284
+\l__sort_B_int=\count285
+\l__sort_C_int=\count286
+\c_empty_box=\box72
+\l_tmpa_box=\box73
+\l_tmpb_box=\box74
+\g_tmpa_box=\box75
+\g_tmpb_box=\box76
+\l__box_top_dim=\dimen269
+\l__box_bottom_dim=\dimen270
+\l__box_left_dim=\dimen271
+\l__box_right_dim=\dimen272
+\l__box_top_new_dim=\dimen273
+\l__box_bottom_new_dim=\dimen274
+\l__box_left_new_dim=\dimen275
+\l__box_right_new_dim=\dimen276
+\l__box_internal_box=\box77
+\l__coffin_internal_box=\box78
+\l__coffin_internal_dim=\dimen277
+\l__coffin_offset_x_dim=\dimen278
+\l__coffin_offset_y_dim=\dimen279
+\l__coffin_x_dim=\dimen280
+\l__coffin_y_dim=\dimen281
+\l__coffin_x_prime_dim=\dimen282
+\l__coffin_y_prime_dim=\dimen283
+\c_empty_coffin=\box79
+\l__coffin_aligned_coffin=\box80
+\l__coffin_aligned_internal_coffin=\box81
+\l_tmpa_coffin=\box82
+\l_tmpb_coffin=\box83
+\l__coffin_display_coffin=\box84
+\l__coffin_display_coord_coffin=\box85
+\l__coffin_display_pole_coffin=\box86
+\l__coffin_display_offset_dim=\dimen284
+\l__coffin_display_x_dim=\dimen285
+\l__coffin_display_y_dim=\dimen286
+\l__coffin_bounding_shift_dim=\dimen287
+\l__coffin_left_corner_dim=\dimen288
+\l__coffin_right_corner_dim=\dimen289
+\l__coffin_bottom_corner_dim=\dimen290
+\l__coffin_top_corner_dim=\dimen291
+\l__coffin_scaled_total_height_dim=\dimen292
+\l__coffin_scaled_width_dim=\dimen293
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
+File: l3pdfmode.def 2017/03/18 v L3 Experimental driver: PDF mode
+\l__driver_color_stack_int=\count287
+\l__driver_tmp_box=\box87
+))
+Package: xparse 2017/05/13 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count288
+\g__xparse_grabber_int=\count289
+\l__xparse_m_args_int=\count290
+\l__xparse_mandatory_args_int=\count291
+\l__xparse_v_nesting_int=\count292
+)
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \tcboxverb with sig. ' O{} v ' on line 128.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \tcbsidebyside with sig. ' +O{} +m +m ' on line 280.
+.................................................
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/tcolorbox/tcblistingsutf8.code.te
+x
+Library (tcolorbox): 'tcblistingsutf8.code.tex' version '4.03'
+(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/listingsutf8.sty
+Package: listingsutf8 2016/05/16 v1.3 Allow UTF-8 in listings input (HO)
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/stringenc.sty
+Package: stringenc 2016/05/16 v1.11 Convert strings between diff. encodings (HO
+)
+))
+(/usr/local/texlive/2017/texmf-dist/tex/latex/tcolorbox/tcblistings.code.tex
+Library (tcolorbox): 'tcblistings.code.tex' version '4.03'
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/tcolorbox/tcblistingscore.code.te
+x
+Library (tcolorbox): 'tcblistingscore.code.tex' version '4.03'
+(/usr/local/texlive/2017/texmf-dist/tex/latex/tcolorbox/tcbprocessing.code.tex
+Library (tcolorbox): 'tcbprocessing.code.tex' version '4.03'
+(/usr/local/texlive/2017/texmf-dist/tex/latex/tools/shellesc.sty
+Package: shellesc 2016/06/07 v0.02a unified shell escape interface for LaTeX
+Package shellesc Info: Restricted shell escape enabled on input line 69.
+))
+\c@tcblisting=\count293
+)))
+(/usr/local/texlive/2017/texmf-dist/tex/latex/tcolorbox/tcbexternal.code.tex
+Library (tcolorbox): 'tcbexternal.code.tex' version '4.03'
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/tcolorbox/tcbmagazine.code.tex
+Library (tcolorbox): 'tcbmagazine.code.tex' version '4.03'
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/tcolorbox/tcbvignette.code.tex
+Library (tcolorbox): 'tcbvignette.code.tex' version '4.03'
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryfadings.code.tex
+File: tikzlibraryfadings.code.tex 2009/11/15 v3.0.1a (rcs-revision 1.2)
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/libraries/pgflibraryfadings
+.code.tex
+File: pgflibraryfadings.code.tex 2008/02/07 v3.0.1a (rcs-revision 1.3)
+)))) (/usr/local/texlive/2017/texmf-dist/tex/latex/lm/lmodern.sty
+Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/listings/lstlang2.sty
+File: lstlang2.sty 2015/06/04 1.6 listings language file
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/listings/lstlang3.sty
+File: lstlang3.sty 2015/06/04 1.6 listings language file
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/listings/lstlang2.sty
+File: lstlang2.sty 2015/06/04 1.6 listings language file
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/listings/lstlang3.sty
+File: lstlang3.sty 2015/06/04 1.6 listings language file
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/listings/lstlang2.sty
+File: lstlang2.sty 2015/06/04 1.6 listings language file
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/listings/lstlang3.sty
+File: lstlang3.sty 2015/06/04 1.6 listings language file
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+)
 (/usr/local/texlive/2017/texmf-dist/tex/latex/beamer/themes/theme/beamerthemePa
 loAlto.sty
 (/usr/local/texlive/2017/texmf-dist/tex/latex/beamer/themes/outer/beamerouterth
 emesidebar.sty
-\beamer@sidebarwidth=\dimen189
-\beamer@headheight=\dimen190
-)
+\beamer@sidebarwidth=\dimen294
+\beamer@headheight=\dimen295
+LaTeX Font Info:    Try loading font information for T1+lmss on input line 16.
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/lm/t1lmss.fd
+File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
+))
 (/usr/local/texlive/2017/texmf-dist/tex/latex/beamer/themes/inner/beamerinnerth
 emerounded.sty)
 (/usr/local/texlive/2017/texmf-dist/tex/latex/beamer/themes/color/beamercolorth
 emeorchid.sty)
 (/usr/local/texlive/2017/texmf-dist/tex/latex/beamer/themes/color/beamercolorth
-emewhale.sty))
+emewhale.sty)))
+(/usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2016/12/05 v3.7 programmable bibliographies (PK/JW/AB)
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/logreq/logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count294
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/logreq/logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/xstring/xstring.sty
+(/usr/local/texlive/2017/texmf-dist/tex/generic/xstring/xstring.tex
+\@xs@message=\write7
+\integerpart=\count295
+\decimalpart=\count296
+)
+Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
+)
+\c@tabx@nest=\count297
+\c@listtotal=\count298
+\c@listcount=\count299
+\c@liststart=\count300
+\c@liststop=\count301
+\c@citecount=\count302
+\c@citetotal=\count303
+\c@multicitecount=\count304
+\c@multicitetotal=\count305
+\c@instcount=\count306
+\c@maxnames=\count307
+\c@minnames=\count308
+\c@maxitems=\count309
+\c@minitems=\count310
+\c@citecounter=\count311
+\c@savedcitecounter=\count312
+\c@uniquelist=\count313
+\c@uniquename=\count314
+\c@refsection=\count315
+\c@refsegment=\count316
+\c@maxextratitle=\count317
+\c@maxextratitleyear=\count318
+\c@maxextrayear=\count319
+\c@maxextraalpha=\count320
+\c@abbrvpenalty=\count321
+\c@highnamepenalty=\count322
+\c@lownamepenalty=\count323
+\c@maxparens=\count324
+\c@parenlevel=\count325
+\blx@tempcnta=\count326
+\blx@tempcntb=\count327
+\blx@tempcntc=\count328
+\blx@maxsection=\count329
+\blx@maxsegment@0=\count330
+\blx@notetype=\count331
+\blx@parenlevel@text=\count332
+\blx@parenlevel@foot=\count333
+\blx@sectionciteorder@0=\count334
+\labelnumberwidth=\skip63
+\labelalphawidth=\skip64
+\biblabelsep=\skip65
+\bibitemsep=\skip66
+\bibnamesep=\skip67
+\bibinitsep=\skip68
+\bibparsep=\skip69
+\bibhang=\skip70
+\blx@bcfin=\read3
+\blx@bcfout=\write8
+\c@mincomprange=\count335
+\c@maxcomprange=\count336
+\c@mincompwidth=\count337
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/blx-dm.def)
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'authortitle.dbx' not found.
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count338
+\c@savedafterword=\count339
+\c@annotator=\count340
+\c@savedannotator=\count341
+\c@author=\count342
+\c@savedauthor=\count343
+\c@bookauthor=\count344
+\c@savedbookauthor=\count345
+\c@commentator=\count346
+\c@savedcommentator=\count347
+\c@editor=\count348
+\c@savededitor=\count349
+\c@editora=\count350
+\c@savededitora=\count351
+\c@editorb=\count352
+\c@savededitorb=\count353
+\c@editorc=\count354
+\c@savededitorc=\count355
+\c@foreword=\count356
+\c@savedforeword=\count357
+\c@holder=\count358
+\c@savedholder=\count359
+\c@introduction=\count360
+\c@savedintroduction=\count361
+\c@namea=\count362
+\c@savednamea=\count363
+\c@nameb=\count364
+\c@savednameb=\count365
+\c@namec=\count366
+\c@savednamec=\count367
+\c@translator=\count368
+\c@savedtranslator=\count369
+\c@shortauthor=\count370
+\c@savedshortauthor=\count371
+\c@shorteditor=\count372
+\c@savedshorteditor=\count373
+\c@labelname=\count374
+\c@savedlabelname=\count375
+\c@institution=\count376
+\c@savedinstitution=\count377
+\c@lista=\count378
+\c@savedlista=\count379
+\c@listb=\count380
+\c@savedlistb=\count381
+\c@listc=\count382
+\c@savedlistc=\count383
+\c@listd=\count384
+\c@savedlistd=\count385
+\c@liste=\count386
+\c@savedliste=\count387
+\c@listf=\count388
+\c@savedlistf=\count389
+\c@location=\count390
+\c@savedlocation=\count391
+\c@organization=\count392
+\c@savedorganization=\count393
+\c@origlocation=\count394
+\c@savedoriglocation=\count395
+\c@origpublisher=\count396
+\c@savedorigpublisher=\count397
+\c@publisher=\count398
+\c@savedpublisher=\count399
+\c@language=\count400
+\c@savedlanguage=\count401
+\c@pageref=\count402
+\c@savedpageref=\count403
+\shorthandwidth=\skip71
+\shortjournalwidth=\skip72
+\shortserieswidth=\skip73
+\shorttitlewidth=\skip74
+\shortauthorwidth=\skip75
+\shorteditorwidth=\skip76
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2016/12/05 v3.7 biblatex compatibility (PK/JW/AB)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/biblatex.def
+File: biblatex.def 2016/12/05 v3.7 biblatex compatibility (PK/JW/AB)
+\c@textcitecount=\count404
+\c@textcitetotal=\count405
+\c@textcitemaxnames=\count406
+\c@biburlnumpenalty=\count407
+\c@biburlucpenalty=\count408
+\c@biburllcpenalty=\count409
+\c@smartand=\count410
+)
+Package biblatex Info: Trying to load natbib compatibility...
+Package biblatex Info: ... file 'blx-natbib.def' found.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/blx-natbib.def
+File: blx-natbib.def 2016/12/05 v3.7 biblatex compatibility (PK/JW/AB)
+)
+Package biblatex Info: Trying to load bibliography style 'authortitle'...
+Package biblatex Info: ... file 'authortitle.bbx' found.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/bbx/authortitle.bbx
+File: authortitle.bbx 2016/12/05 v3.7 biblatex bibliography style (PK/JW/AB)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+File: standard.bbx 2016/12/05 v3.7 biblatex bibliography style (PK/JW/AB)
+\c@bbx:relatedcount=\count411
+\c@bbx:relatedtotal=\count412
+))
+Package biblatex Info: Trying to load citation style 'authortitle'...
+Package biblatex Info: ... file 'authortitle.cbx' found.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/cbx/authortitle.cbx
+File: authortitle.cbx 2016/12/05 v3.7 biblatex citation style (PK/JW/AB)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/biblatex.cfg
+File: biblatex.cfg 
+))
+\@indexfile=\write9
+\openout9 = `document.idx'.
+
+
+Writing index file document.idx
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'ngerman'.
- (./document.aux)
+Package biblatex Info: Trying to load language 'ngerman'...
+Package biblatex Info: ... file 'ngerman.lbx' found.
+(/usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/lbx/ngerman.lbx
+File: ngerman.lbx 2016/12/05 v3.7 biblatex localization (PK/JW/AB)
+Package biblatex Info: Trying to load language 'german'...
+Package biblatex Info: ... file 'german.lbx' found.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/lbx/german.lbx
+File: german.lbx 2016/12/05 v3.7 biblatex localization (PK/JW/AB)
+))
+
+Package biblatex Warning: Patching footnotes failed.
+(biblatex)                Footnote detection will not work.
+
+(./document.aux)
 \openout1 = `document.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1109,17 +1727,17 @@ LaTeX Font Info:    ... okay on input line 30.
 
 (/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count162
-\scratchdimen=\dimen191
-\scratchbox=\box53
-\nofMPsegments=\count163
-\nofMParguments=\count164
-\everyMPshowfont=\toks46
-\MPscratchCnt=\count165
-\MPscratchDim=\dimen192
-\MPnumerator=\count166
-\makeMPintoPDFobject=\count167
-\everyMPtoPDFconversion=\toks47
+\scratchcounter=\count413
+\scratchdimen=\dimen296
+\scratchbox=\box88
+\nofMPsegments=\count414
+\nofMParguments=\count415
+\everyMPshowfont=\toks51
+\MPscratchCnt=\count416
+\MPscratchDim=\dimen297
+\MPnumerator=\count417
+\makeMPintoPDFobject=\count418
+\everyMPtoPDFconversion=\toks52
 ) (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -1138,8 +1756,8 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 ABD: EveryShipout initializing macros
-\AtBeginShipoutBox=\box54
-Package hyperref Info: Link coloring OFF on input line 30.
+\AtBeginShipoutBox=\box89
+Package hyperref Info: Link coloring OFF on input line 18.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1147,173 +1765,683 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count168
+\c@section@level=\count419
 LaTeX Info: Redefining \Ref on input line 515.
 )
-LaTeX Info: Redefining \ref on input line 30.
-LaTeX Info: Redefining \pageref on input line 30.
-LaTeX Info: Redefining \nameref on input line 30.
+LaTeX Info: Redefining \ref on input line 18.
+LaTeX Info: Redefining \pageref on input line 18.
+LaTeX Info: Redefining \nameref on input line 18.
 
 (./document.out) (./document.out)
-\@outlinefile=\write5
-\openout5 = `document.out'.
+\@outlinefile=\write10
+\openout10 = `document.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 30.
+(Font)                  OT1/lmr/m/n --> OT1/cmss/m/n on input line 18.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 30.
+(Font)                  OT1/lmr/bx/n --> OT1/cmss/bx/n on input line 18.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 18.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 18.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> T1/cmr/m/n on input line 30.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 30.
+(Font)                  OT1/lmss/m/n --> T1/lmr/m/n on input line 18.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 18.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> T1/cmss/bx/n on input line 30.
+(Font)                  OT1/lmr/bx/n --> T1/lmss/bx/n on input line 18.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> T1/cmss/bx/n on input line 30.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 30.
+(Font)                  OT1/lmr/bx/n --> T1/lmss/bx/n on input line 18.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 18.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> T1/cmss/m/n on input line 30.
+(Font)                  OT1/lmss/m/n --> T1/lmss/m/n on input line 18.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> T1/cmss/m/n on input line 30.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 30.
+(Font)                  OT1/lmss/bx/n --> T1/lmss/m/n on input line 18.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 18.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> T1/cmss/m/it on input line 30.
+(Font)                  OT1/lmr/m/it --> T1/lmss/m/it on input line 18.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> T1/cmss/m/it on input line 30.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 30.
+(Font)                  OT1/lmr/bx/it --> T1/lmss/m/it on input line 18.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 18.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 30.
+(Font)                  OT1/lmtt/m/n --> T1/lmtt/m/n on input line 18.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 30.
+(Font)                  OT1/lmtt/m/n --> T1/lmtt/m/n on input line 18.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  T1/cmss/m/n --> T1/cmss/bx/n on input line 30.
+(Font)                  T1/lmss/m/n --> T1/lmss/bx/n on input line 18.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  T1/cmss/m/it --> T1/cmss/bx/it on input line 30.
+(Font)                  T1/lmss/m/it --> T1/lmss/bx/it on input line 18.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/bx/n --> T1/cmr/bx/n on input line 30.
+(Font)                  OT1/lmss/bx/n --> T1/lmr/bx/n on input line 18.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  T1/cmss/bx/n --> T1/cmss/bx/n on input line 30.
+(Font)                  T1/lmss/bx/n --> T1/lmss/bx/n on input line 18.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  T1/cmss/m/n --> T1/cmss/bx/n on input line 30.
+(Font)                  T1/lmss/m/n --> T1/lmss/bx/n on input line 18.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  T1/cmss/m/it --> T1/cmss/bx/it on input line 30.
+(Font)                  T1/lmss/m/it --> T1/lmss/bx/it on input line 18.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  T1/cmtt/m/n --> T1/cmtt/bx/n on input line 30.
-LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 30.
-LaTeX Font Info:    Encoding `T1' has changed to `OT1' for symbol font
-(Font)              `pureletters' in the math version `normal' on input line 30
-.
-LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
-(Font)                  T1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 30
-.
-LaTeX Font Info:    Encoding `T1' has changed to `OT1' for symbol font
-(Font)              `pureletters' in the math version `bold' on input line 30.
-LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  T1/cmss/bx/it --> OT1/mathkerncmss/m/sl on input line 3
-0.
-LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on inp
-ut line 30.
+(Font)                  T1/lmtt/m/n --> T1/lmtt/bx/n on input line 18.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/beamer/translator/dicts/translato
 r-basic-dictionary/translator-basic-dictionary-English.dict
 Dictionary: translator-basic-dictionary, Language: English 
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/beamer/translator/dicts/translato
+r-basic-dictionary/translator-basic-dictionary-German.dict
+Dictionary: translator-basic-dictionary, Language: German 
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/beamer/translator/dicts/translato
 r-bibliography-dictionary/translator-bibliography-dictionary-English.dict
 Dictionary: translator-bibliography-dictionary, Language: English 
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/beamer/translator/dicts/translato
+r-bibliography-dictionary/translator-bibliography-dictionary-German.dict
+Dictionary: translator-bibliography-dictionary, Language: German 
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/beamer/translator/dicts/translato
 r-environment-dictionary/translator-environment-dictionary-English.dict
 Dictionary: translator-environment-dictionary, Language: English 
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/beamer/translator/dicts/translato
+r-environment-dictionary/translator-environment-dictionary-German.dict
+Dictionary: translator-environment-dictionary, Language: German 
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/beamer/translator/dicts/translato
 r-months-dictionary/translator-months-dictionary-English.dict
 Dictionary: translator-months-dictionary, Language: English 
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/beamer/translator/dicts/translato
+r-months-dictionary/translator-months-dictionary-German.dict
+Dictionary: translator-months-dictionary, Language: German 
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/beamer/translator/dicts/translato
 r-numbers-dictionary/translator-numbers-dictionary-English.dict
 Dictionary: translator-numbers-dictionary, Language: English 
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/beamer/translator/dicts/translato
+r-numbers-dictionary/translator-numbers-dictionary-German.dict
+Dictionary: translator-numbers-dictionary, Language: German 
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/beamer/translator/dicts/translato
 r-theorem-dictionary/translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \includegraphics on input line 30.
+(/usr/local/texlive/2017/texmf-dist/tex/latex/beamer/translator/dicts/translato
+r-theorem-dictionary/translator-theorem-dictionary-German.dict
+Dictionary: translator-theorem-dictionary, Language: German 
+)
+LaTeX Info: Redefining \includegraphics on input line 18.
+\c@lstlisting=\count420
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+\openout8 = `document.bcf'.
 
-(./document.nav) <hbbk-logo.png, id=13, 1164.35pt x 1153.30875pt>
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'document.bbl' found.
+ (./document.bbl)
+Package biblatex Info: Reference section=0 on input line 18.
+Package biblatex Info: Reference segment=0 on input line 18.
+ (./document.nav) <hbbk-logo.png, id=89, 1164.35pt x 1153.30875pt>
 File: hbbk-logo.png Graphic file (type png)
 
 <use hbbk-logo.png>
-Package pdftex.def Info: hbbk-logo.png used on input line 30.
+Package pdftex.def Info: hbbk-logo.png used on input line 18.
 (pdftex.def)             Requested size: 45.06474pt x 44.62865pt.
-LaTeX Font Info:    Try loading font information for U+msa on input line 33.
+LaTeX Font Info:    Try loading font information for OT1+lmss on input line 21.
+
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/lm/ot1lmss.fd
+File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 21.
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 21.
+
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/lm/omslmsy.fd
+File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 21.
+
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/lm/omxlmex.fd
+File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <14.4> on input line 21.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 21.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 21.
+LaTeX Font Info:    Try loading font information for U+msa on input line 21.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 33.
+LaTeX Font Info:    Try loading font information for U+msb on input line 21.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input 
-line 33.
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
-File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
-thkerncmss.
-)
-
-LaTeX Font Warning: Font shape `T1/cmss/m/n' in size <4> not available
-(Font)              size <5> substituted on input line 33.
-
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <14.4> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 21.
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 21.
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <7> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 21.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 21.
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <5> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 21.
 File: hbbk-logo.png Graphic file (type png)
+
 <use hbbk-logo.png>
-Package pdftex.def Info: hbbk-logo.png used on input line 33.
+Package pdftex.def Info: hbbk-logo.png used on input line 21.
 (pdftex.def)             Requested size: 45.06474pt x 44.62865pt.
  [1{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
- <./hbbk-logo.png>]
-\tf@nav=\write6
-\openout6 = `document.nav'.
 
-\tf@toc=\write7
-\openout7 = `document.toc'.
 
-\tf@snm=\write8
-\openout8 = `document.snm'.
+\providecommand\tcolorbox@label[2]{}
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 37.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 37.
- (./document.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 37.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 37.
+ <./hbbk-logo.png>] (./document.toc
+Package cleveref Info: loaded `ngerman' language definitions on input line 3.
+)
+File: hbbk-logo.png Graphic file (type png)
+ <use hbbk-logo.png>
+Package pdftex.def Info: hbbk-logo.png used on input line 23.
+(pdftex.def)             Requested size: 45.06474pt x 44.62865pt.
+ [2
+
+]
+\openout4 = `document.vrb'.
+
+ (./document.vrb)
+File: hbbk-logo.png Graphic file (type png)
+
+<use hbbk-logo.png>
+Package pdftex.def Info: hbbk-logo.png used on input line 35.
+(pdftex.def)             Requested size: 45.06474pt x 44.62865pt.
+ [3
+
+] (./document.toc
+Package cleveref Info: loaded `ngerman' language definitions on input line 3.
+)
+File: hbbk-logo.png Graphic file (type png)
+ <use hbbk-logo.png>
+Package pdftex.def Info: hbbk-logo.png used on input line 38.
+(pdftex.def)             Requested size: 45.06474pt x 44.62865pt.
+ [4
+
+]
+File: hbbk-logo.png Graphic file (type png)
+
+<use hbbk-logo.png>
+Package pdftex.def Info: hbbk-logo.png used on input line 47.
+(pdftex.def)             Requested size: 45.06474pt x 44.62865pt.
+ [5
+
+]
+File: hbbk-logo.png Graphic file (type png)
+ <use hbbk-logo.png>
+Package pdftex.def Info: hbbk-logo.png used on input line 47.
+(pdftex.def)             Requested size: 45.06474pt x 44.62865pt.
+ [6
+
+]
+File: hbbk-logo.png Graphic file (type png)
+ <use hbbk-logo.png>
+Package pdftex.def Info: hbbk-logo.png used on input line 47.
+(pdftex.def)             Requested size: 45.06474pt x 44.62865pt.
+ [7
+
+]
+\openout4 = `document.vrb'.
+
+
+(./document.vrb)
+Overfull \hbox (11.12233pt too wide) in paragraph at lines 2--60
+[][]  
+ []
+
+File: hbbk-logo.png Graphic file (type png)
+<use hbbk-logo.png>
+Package pdftex.def Info: hbbk-logo.png used on input line 60.
+(pdftex.def)             Requested size: 45.06474pt x 44.62865pt.
+ [8
+
+] (./document.vrb)
+Overfull \hbox (11.12233pt too wide) in paragraph at lines 2--60
+[][]  
+ []
+
+File: hbbk-logo.png Graphic file (type png)
+<use hbbk-logo.png>
+Package pdftex.def Info: hbbk-logo.png used on input line 60.
+(pdftex.def)             Requested size: 45.06474pt x 44.62865pt.
+ [9
+
+] (./document.vrb)
+Overfull \hbox (11.12233pt too wide) in paragraph at lines 2--60
+[][]  
+ []
+
+File: hbbk-logo.png Graphic file (type png)
+<use hbbk-logo.png>
+Package pdftex.def Info: hbbk-logo.png used on input line 60.
+(pdftex.def)             Requested size: 45.06474pt x 44.62865pt.
+ [10
+
+] (./document.vrb)
+Overfull \hbox (11.12233pt too wide) in paragraph at lines 2--60
+[][]  
+ []
+
+File: hbbk-logo.png Graphic file (type png)
+<use hbbk-logo.png>
+Package pdftex.def Info: hbbk-logo.png used on input line 60.
+(pdftex.def)             Requested size: 45.06474pt x 44.62865pt.
+ [11
+
+] (./document.vrb)
+Overfull \hbox (11.12233pt too wide) in paragraph at lines 2--60
+[][]  
+ []
+
+File: hbbk-logo.png Graphic file (type png)
+<use hbbk-logo.png>
+Package pdftex.def Info: hbbk-logo.png used on input line 60.
+(pdftex.def)             Requested size: 45.06474pt x 44.62865pt.
+ [12
+
+] (./document.toc
+Package cleveref Info: loaded `ngerman' language definitions on input line 3.
+)
+File: hbbk-logo.png Graphic file (type png)
+ <use hbbk-logo.png>
+Package pdftex.def Info: hbbk-logo.png used on input line 62.
+(pdftex.def)             Requested size: 45.06474pt x 44.62865pt.
+ [13
+
+]
+\openout4 = `document.vrb'.
+
+
+(./document.vrb)
+File: hbbk-logo.png Graphic file (type png)
+ <use hbbk-logo.png>
+Package pdftex.def Info: hbbk-logo.png used on input line 74.
+(pdftex.def)             Requested size: 45.06474pt x 44.62865pt.
+ [14
+
+]
+\openout4 = `document.vrb'.
+
+ (./document.vrb)
+File: hbbk-logo.png Graphic file (type png)
+ <use hbbk-logo.png>
+Package pdftex.def Info: hbbk-logo.png used on input line 84.
+(pdftex.def)             Requested size: 45.06474pt x 44.62865pt.
+
+[15
+
+]
+\openout4 = `document.vrb'.
+
+ (./document.vrb)
+File: hbbk-logo.png Graphic file (type png)
+ <use hbbk-logo.png>
+Package pdftex.def Info: hbbk-logo.png used on input line 97.
+(pdftex.def)             Requested size: 45.06474pt x 44.62865pt.
+ [16
+
+]
+\openout4 = `document.vrb'.
+
+ (./document.vrb)
+File: hbbk-logo.png Graphic file (type png)
+
+<use hbbk-logo.png>
+Package pdftex.def Info: hbbk-logo.png used on input line 108.
+(pdftex.def)             Requested size: 45.06474pt x 44.62865pt.
+ [17
+
+]
+\openout4 = `document.vrb'.
+
+ (./document.vrb)
+File: hbbk-logo.png Graphic file (type png)
+ <use hbbk-logo.png>
+Package pdftex.def Info: hbbk-logo.png used on input line 119.
+(pdftex.def)             Requested size: 45.06474pt x 44.62865pt.
+ [18
+
+]
+\openout4 = `document.vrb'.
+
+
+(./document.vrb)
+File: hbbk-logo.png Graphic file (type png)
+ <use hbbk-logo.png>
+Package pdftex.def Info: hbbk-logo.png used on input line 131.
+(pdftex.def)             Requested size: 45.06474pt x 44.62865pt.
+ [19
+
+]
+\openout4 = `document.vrb'.
+
+ (./document.vrb)
+File: hbbk-logo.png Graphic file (type png)
+ <use hbbk-logo.png>
+Package pdftex.def Info: hbbk-logo.png used on input line 143.
+(pdftex.def)             Requested size: 45.06474pt x 44.62865pt.
+
+[20
+
+] (./document.toc
+Package cleveref Info: loaded `ngerman' language definitions on input line 3.
+)
+File: hbbk-logo.png Graphic file (type png)
+ <use hbbk-logo.png>
+Package pdftex.def Info: hbbk-logo.png used on input line 145.
+(pdftex.def)             Requested size: 45.06474pt x 44.62865pt.
+ [21
+
+]
+\openout4 = `document.vrb'.
+
+ (./document.vrb)
+File: hbbk-logo.png Graphic file (type png)
+
+<use hbbk-logo.png>
+Package pdftex.def Info: hbbk-logo.png used on input line 153.
+(pdftex.def)             Requested size: 45.06474pt x 44.62865pt.
+ [22
+
+] (./document.vrb)
+File: hbbk-logo.png Graphic file (type png)
+ <use hbbk-logo.png>
+Package pdftex.def Info: hbbk-logo.png used on input line 153.
+(pdftex.def)             Requested size: 45.06474pt x 44.62865pt.
+ [23
+
+]
+\openout4 = `document.vrb'.
+
+
+(./document.vrb)
+File: hbbk-logo.png Graphic file (type png)
+ <use hbbk-logo.png>
+Package pdftex.def Info: hbbk-logo.png used on input line 166.
+(pdftex.def)             Requested size: 45.06474pt x 44.62865pt.
+ [24
+
+] (./document.vrb)
+File: hbbk-logo.png Graphic file (type png)
+ <use hbbk-logo.png>
+Package pdftex.def Info: hbbk-logo.png used on input line 166.
+(pdftex.def)             Requested size: 45.06474pt x 44.62865pt.
+
+[25
+
+] (./document.vrb)
+File: hbbk-logo.png Graphic file (type png)
+ <use hbbk-logo.png>
+Package pdftex.def Info: hbbk-logo.png used on input line 166.
+(pdftex.def)             Requested size: 45.06474pt x 44.62865pt.
+ [26
+
+]
+\openout4 = `document.vrb'.
+
+ (./document.vrb)
+File: hbbk-logo.png Graphic file (type png)
+
+<use hbbk-logo.png>
+Package pdftex.def Info: hbbk-logo.png used on input line 177.
+(pdftex.def)             Requested size: 45.06474pt x 44.62865pt.
+ [27
+
+] (./document.toc
+Package cleveref Info: loaded `ngerman' language definitions on input line 3.
+)
+File: hbbk-logo.png Graphic file (type png)
+ <use hbbk-logo.png>
+Package pdftex.def Info: hbbk-logo.png used on input line 179.
+(pdftex.def)             Requested size: 45.06474pt x 44.62865pt.
+ [28
+
+]
+\openout4 = `document.vrb'.
+
+
+(./document.vrb
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <9> on input line 3.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 3.
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <9> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 3.
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <6> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 3.
+)
+File: hbbk-logo.png Graphic file (type png)
+ <use hbbk-logo.png>
+Package pdftex.def Info: hbbk-logo.png used on input line 187.
+(pdftex.def)             Requested size: 45.06474pt x 44.62865pt.
+ [29
+
+] (./document.vrb)
+File: hbbk-logo.png Graphic file (type png)
+ <use hbbk-logo.png>
+Package pdftex.def Info: hbbk-logo.png used on input line 187.
+(pdftex.def)             Requested size: 45.06474pt x 44.62865pt.
+
+[30
+
+] (./document.vrb)
+File: hbbk-logo.png Graphic file (type png)
+ <use hbbk-logo.png>
+Package pdftex.def Info: hbbk-logo.png used on input line 187.
+(pdftex.def)             Requested size: 45.06474pt x 44.62865pt.
+ [31
+
+]
+\openout4 = `document.vrb'.
+
+ (./document.vrb
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 15.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+))
+File: hbbk-logo.png Graphic file (type png)
+
+<use hbbk-logo.png>
+Package pdftex.def Info: hbbk-logo.png used on input line 207.
+(pdftex.def)             Requested size: 45.06474pt x 44.62865pt.
+ [32
+
+] (./document.vrb)
+File: hbbk-logo.png Graphic file (type png)
+ <use hbbk-logo.png>
+Package pdftex.def Info: hbbk-logo.png used on input line 207.
+(pdftex.def)             Requested size: 45.06474pt x 44.62865pt.
+ [33
+
+]
+(./document.vrb)
+File: hbbk-logo.png Graphic file (type png)
+ <use hbbk-logo.png>
+Package pdftex.def Info: hbbk-logo.png used on input line 207.
+(pdftex.def)             Requested size: 45.06474pt x 44.62865pt.
+ [34
+
+] (./document.vrb)
+File: hbbk-logo.png Graphic file (type png)
+ <use hbbk-logo.png>
+Package pdftex.def Info: hbbk-logo.png used on input line 207.
+(pdftex.def)             Requested size: 45.06474pt x 44.62865pt.
+
+[35
+
+] (./document.vrb)
+File: hbbk-logo.png Graphic file (type png)
+ <use hbbk-logo.png>
+Package pdftex.def Info: hbbk-logo.png used on input line 207.
+(pdftex.def)             Requested size: 45.06474pt x 44.62865pt.
+ [36
+
+]
+\openout4 = `document.vrb'.
+
+ (./document.vrb)
+File: hbbk-logo.png Graphic file (type png)
+
+<use hbbk-logo.png>
+Package pdftex.def Info: hbbk-logo.png used on input line 221.
+(pdftex.def)             Requested size: 45.06474pt x 44.62865pt.
+ [37
+
+] (./document.vrb)
+File: hbbk-logo.png Graphic file (type png)
+ <use hbbk-logo.png>
+Package pdftex.def Info: hbbk-logo.png used on input line 221.
+(pdftex.def)             Requested size: 45.06474pt x 44.62865pt.
+ [38
+
+]
+(./document.vrb)
+File: hbbk-logo.png Graphic file (type png)
+ <use hbbk-logo.png>
+Package pdftex.def Info: hbbk-logo.png used on input line 221.
+(pdftex.def)             Requested size: 45.06474pt x 44.62865pt.
+ [39
+
+] (./document.vrb)
+File: hbbk-logo.png Graphic file (type png)
+ <use hbbk-logo.png>
+Package pdftex.def Info: hbbk-logo.png used on input line 221.
+(pdftex.def)             Requested size: 45.06474pt x 44.62865pt.
+
+[40
+
+] (./document.vrb)
+File: hbbk-logo.png Graphic file (type png)
+ <use hbbk-logo.png>
+Package pdftex.def Info: hbbk-logo.png used on input line 221.
+(pdftex.def)             Requested size: 45.06474pt x 44.62865pt.
+ [41
+
+] (./document.toc
+Package cleveref Info: loaded `ngerman' language definitions on input line 3.
+)
+File: hbbk-logo.png Graphic file (type png)
+
+<use hbbk-logo.png>
+Package pdftex.def Info: hbbk-logo.png used on input line 225.
+(pdftex.def)             Requested size: 45.06474pt x 44.62865pt.
+ [42
+
+]
+\openout4 = `document.vrb'.
+
+ (./document.vrb)
+File: hbbk-logo.png Graphic file (type png)
+ <use hbbk-logo.png>
+Package pdftex.def Info: hbbk-logo.png used on input line 241.
+(pdftex.def)             Requested size: 45.06474pt x 44.62865pt.
+ [43
+
+]
+(./document.vrb)
+File: hbbk-logo.png Graphic file (type png)
+ <use hbbk-logo.png>
+Package pdftex.def Info: hbbk-logo.png used on input line 241.
+(pdftex.def)             Requested size: 45.06474pt x 44.62865pt.
+ [44
+
+]
+\openout4 = `document.vrb'.
+
+ (./document.vrb)
+File: hbbk-logo.png Graphic file (type png)
+ <use hbbk-logo.png>
+Package pdftex.def Info: hbbk-logo.png used on input line 254.
+(pdftex.def)             Requested size: 45.06474pt x 44.62865pt.
+
+[45
+
+] (./document.vrb)
+File: hbbk-logo.png Graphic file (type png)
+ <use hbbk-logo.png>
+Package pdftex.def Info: hbbk-logo.png used on input line 254.
+(pdftex.def)             Requested size: 45.06474pt x 44.62865pt.
+ [46
+
+] (./document.vrb)
+File: hbbk-logo.png Graphic file (type png)
+
+<use hbbk-logo.png>
+Package pdftex.def Info: hbbk-logo.png used on input line 254.
+(pdftex.def)             Requested size: 45.06474pt x 44.62865pt.
+ [47
+
+] (./document.vrb)
+File: hbbk-logo.png Graphic file (type png)
+ <use hbbk-logo.png>
+Package pdftex.def Info: hbbk-logo.png used on input line 254.
+(pdftex.def)             Requested size: 45.06474pt x 44.62865pt.
+ [48
+
+]
+\tf@nav=\write11
+\openout11 = `document.nav'.
+
+\tf@toc=\write12
+\openout12 = `document.toc'.
+
+\tf@snm=\write13
+\openout13 = `document.snm'.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 256.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 256.
+
+(./document.aux
+Package cleveref Info: loaded `ngerman' language definitions on input line 25.
+)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 256.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 256.
 Package rerunfilecheck Info: File `document.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-
-
-LaTeX Font Warning: Size substitutions with differences
-(Font)              up to 1.0pt have occurred.
+(rerunfilecheck)             Checksum: FC93E3166128A0855E7B38E0F8A8DBDE;627.
+Package logreq Info: Writing requests to 'document.run.xml'.
+\openout1 = `document.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 19954 strings out of 492995
- 378775 string characters out of 6132704
- 485251 words of memory out of 5000000
- 23049 multiletter control sequences out of 15000+600000
- 12469 words of font info for 39 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 56i,20n,55p,774b,607s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
-</usr/local/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfss0500.pfb></
-usr/local/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfss1000.pfb></us
-r/local/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfss1440.pfb>
-Output written on document.pdf (1 page, 33033 bytes).
+ 44254 strings out of 492995
+ 887814 string characters out of 6132704
+ 1397579 words of memory out of 5000000
+ 46855 multiletter control sequences out of 15000+600000
+ 70599 words of font info for 64 fonts, out of 8000000 for 9000
+ 1145 hyphenation exceptions out of 8191
+ 74i,20n,107p,10514b,2372s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/
+texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}</usr/local/texlive/2017/t
+exmf-dist/fonts/type1/public/lm/lmss10.pfb></usr/local/texlive/2017/texmf-dist/
+fonts/type1/public/lm/lmss12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type
+1/public/lm/lmss8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm
+/lmss9.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmssbx10.p
+fb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmsso10.pfb></usr/
+local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmtt10.pfb></usr/local/texl
+ive/2017/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on document.pdf (48 pages, 310565 bytes).
 PDF statistics:
- 45 PDF objects out of 1000 (max. 8388607)
- 27 compressed objects within 1 object stream
- 3 named destinations out of 1000 (max. 500000)
- 66 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1986 PDF objects out of 2073 (max. 8388607)
+ 1869 compressed objects within 19 object streams
+ 107 named destinations out of 1000 (max. 500000)
+ 320 words of extra memory for PDF output out of 10000 (max. 10000000)
 
